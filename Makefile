@@ -1,8 +1,8 @@
 
 CC = g++
 
-main.exe: main.cpp
+main: main.cpp
 	$(CC) -o $@ $^
 
 clean:
-	rm main.exe
+	rm main
