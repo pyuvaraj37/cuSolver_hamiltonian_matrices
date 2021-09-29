@@ -10,24 +10,23 @@
  *   g++ -o a.out syevd_example.o -L/usr/local/cuda/lib64 -lcudart -lcusolver
  *
  */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
 #include <fstream>
 #include <iostream>
-// #include <cuda_runtime.h>
-// #include <cusolverDn.h>
+#include <cuda_runtime.h>
+#include <cusolverDn.h>
 
-// void printMatrix(int m, int n, const double*A, int lda, const char* name)
-// {
-//     for(int row = 0 ; row < m ; row++){
-//         for(int col = 0 ; col < n ; col++){
-//             double Areg = A[row + col*lda];
-//             printf("%s(%d,%d) = %f\n", name, row+1, col+1, Areg);
-//         }
-//     }
-// }
+ void printMatrix(int m, int n, const double*A, int lda, const char* name)
+ {
+     for(int row = 0 ; row < m ; row++){
+         for(int col = 0 ; col < n ; col++){
+             double Areg = A[row + col*lda];
+             printf("%s(%d,%d) = %f\n", name, row+1, col+1, Areg);
+       }
+    }
+}
 
 int main(int argc, char*argv[])
 {
@@ -66,8 +65,8 @@ int main(int argc, char*argv[])
     cudaError_t cudaStat1 = cudaSuccess;
     cudaError_t cudaStat2 = cudaSuccess;
     cudaError_t cudaStat3 = cudaSuccess;
-    const int m = 3;
-    const int lda = m;
+    const int m = n;
+    const int lda = n;
 /*       | 3.5 0.5 0 |
  *   A = | 0.5 3.5 0 |
  *       | 0   0   2 |
