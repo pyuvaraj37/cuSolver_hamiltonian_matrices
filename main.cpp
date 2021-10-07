@@ -35,25 +35,31 @@ int main(int argc, char*argv[])
     std::string file = argv[1];
     int n = atoi(argv[2]);
     std::string full_file_path;
+    std::string full_verify_file_path;
+    full_verify_file_path += "verif/v"
+    full_verify_file_path += file; 
     full_file_path += "data/";
     full_file_path += file;
     printf("File pointer path: %s\n", full_file_path.c_str()); 
     printf("Opening file...\n");
-    FILE *fptr;
+    FILE *fptr, *vftr;
     fptr = fopen(full_file_path.c_str(), "r");
-    printf("Getting lines: \n");
+    
+    vftr = fopen(full_verify_file_path.c_str(), "r");
     double A[n * n];
+    double lambda[m];  
+    printf("Creating correct eigenvalues for verification: \n");
+    for (size_t i = 0; i < n; i++) {
+        fscanf(fptr, "%lf", &(lambda[i]));
+    }
 
-    // for (size_t i = 0; i < 4; i++) {
-    //     fscanf(fptr, "%[^\n]");
-    // }
-
+    printf("Creating matrix from .dat file: \n");
     for (size_t i = 0; i < n; i++) {
         for (size_t j = 0; j < n; j++) {
             fscanf(fptr, "%lf", &(A[n * i + j]));
         }
     }
-    printf("Closing file.\n");
+    printf("Closing files.\n");
     fclose(fptr);
 
     // for (size_t i = 0; i < 10; i++) {
@@ -160,13 +166,13 @@ int main(int argc, char*argv[])
     printMatrix(m, m, V, lda, "V");
     printf("=====\n");
 
-// step 4: check eigenvalues
-    // double lambda_sup = 0;
-    // for(int i = 0 ; i < m ; i++){
-    //     double error = fabs( lambda[i] - W[i]);
-    //     lambda_sup = (lambda_sup > error)? lambda_sup : error;
-    // }
-    // printf("|lambda - W| = %E\n", lambda_sup);
+step 4: check eigenvalues
+    double lambda_sup = 0;
+    for(int i = 0 ; i < m ; i++){
+        double error = fabs( lambda[i] - W[i]);
+        lambda_sup = (lambda_sup > error)? lambda_sup : error;
+    }
+    printf("|lambda - W| = %E\n", lambda_sup);
 
 // free resources
     if (d_A    ) cudaFree(d_A);
