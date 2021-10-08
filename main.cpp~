@@ -50,7 +50,7 @@ int main(int argc, char*argv[])
     double lambda[n];  
     printf("Creating correct eigenvalues for verification: \n");
     for (size_t i = 0; i < n; i++) {
-        fscanf(vftr, "%lf", &(lambda[i]));
+        fscanf(vfptr, "%lf", &(lambda[i]));
     }
 
     printf("Creating matrix from .dat file: \n");
