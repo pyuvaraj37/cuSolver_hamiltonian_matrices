@@ -1,15 +1,4 @@
-/* 
-    From https://docs.nvidia.com/cuda/cusolver/index.html#syevd-example1 
-    Modified the input data to work with input files 
 
-*/
-
-/*
- * How to compile (assume cuda is installed at /usr/local/cuda/)
- *   nvcc -c -I/usr/local/cuda/include syevd_example.cpp 
- *   g++ -o a.out syevd_example.o -L/usr/local/cuda/lib64 -lcudart -lcusolver
- *
- */
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
@@ -157,14 +146,14 @@ int main(int argc, char*argv[])
     printf("after syevd: info_gpu = %d\n", info_gpu);
     assert(0 == info_gpu);
 
-    printf("eigenvalue = (matlab base-1), ascending order\n");
-    for(int i = 0 ; i < m ; i++){
-        printf("W[%d] = %E\n", i+1, W[i]);
-    }
+    // printf("eigenvalue = (matlab base-1), ascending order\n");
+    // for(int i = 0 ; i < m ; i++){
+    //     printf("W[%d] = %E\n", i+1, W[i]);
+    // }
 
-    printf("V = (matlab base-1)\n");
-    printMatrix(m, m, V, lda, "V");
-    printf("=====\n");
+    // printf("V = (matlab base-1)\n");
+    // printMatrix(m, m, V, lda, "V");
+    // printf("=====\n");
 
 //step 4: check eigenvalues
     double lambda_sup = 0;
