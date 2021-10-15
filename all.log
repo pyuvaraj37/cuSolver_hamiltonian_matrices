@@ -1,0 +1,87 @@
+Starting script
+Running Hamiltonian Matrices:
+Computing hamsqr128.dat
+Error 4.337147E-07
+HtoD memcpy 0.050688 ms 
+Kernel 19.333311 ms 
+DtoH memcpy 0.154592 ms 
+-----------------------
+Computing hamsqr256.dat
+Error 4.993512E-07
+HtoD memcpy 0.151200 ms 
+Kernel 43.682430 ms 
+DtoH memcpy 0.462176 ms 
+-----------------------
+Computing hamsqr512.dat
+Error 4.993116E-07
+HtoD memcpy 0.414464 ms 
+Kernel 174.449158 ms 
+DtoH memcpy 1.615904 ms 
+-----------------------
+Computing hamsqr1024.dat
+Error 4.993024E-07
+HtoD memcpy 1.337472 ms 
+Kernel 297.783997 ms 
+DtoH memcpy 2.944512 ms 
+-----------------------
+Computing hamsqr2048.dat
+Error 4.988582E-07
+HtoD memcpy 4.708192 ms 
+Kernel 634.704773 ms 
+DtoH memcpy 11.817824 ms 
+-----------------------
+Computing hamsqr4096.dat
+Error 4.996495E-07
+HtoD memcpy 19.816959 ms 
+Kernel 2110.624023 ms 
+DtoH memcpy 45.175777 ms 
+-----------------------
+Computing hamsqr8192.dat
+Error 4.999436E-07
+HtoD memcpy 71.995392 ms 
+Kernel 10948.074219 ms 
+DtoH memcpy 170.406372 ms 
+-----------------------
+Running Overlap Matrices:
+Computing oversqr128.dat
+Error 4.996517E-07
+HtoD memcpy 0.051296 ms 
+Kernel 19.465696 ms 
+DtoH memcpy 0.144960 ms 
+-----------------------
+Computing oversqr256.dat
+Error 4.997113E-07
+HtoD memcpy 0.137632 ms 
+Kernel 44.601566 ms 
+DtoH memcpy 0.520320 ms 
+-----------------------
+Computing oversqr512.dat
+Error 4.997121E-07
+HtoD memcpy 0.428288 ms 
+Kernel 97.767677 ms 
+DtoH memcpy 1.618144 ms 
+-----------------------
+Computing oversqr1024.dat
+Error 4.996289E-07
+HtoD memcpy 1.453600 ms 
+Kernel 230.406174 ms 
+DtoH memcpy 3.101984 ms 
+-----------------------
+Computing oversqr2048.dat
+Error 4.999615E-07
+HtoD memcpy 5.293952 ms 
+Kernel 715.899536 ms 
+DtoH memcpy 12.718656 ms 
+-----------------------
+Computing oversqr4096.dat
+Error 4.998943E-07
+HtoD memcpy 18.493631 ms 
+Kernel 2286.803223 ms 
+DtoH memcpy 42.325214 ms 
+-----------------------
+Computing oversqr8192.dat
+Error 4.999615E-07
+HtoD memcpy 5.293952 ms 
+Kernel 715.899536 ms 
+DtoH memcpy 12.718656 ms 
+Finished all computations.

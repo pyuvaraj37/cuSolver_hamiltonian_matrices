@@ -194,7 +194,7 @@ int main(int argc, char*argv[])
     printf("Error %E\n", lambda_sup);
     printf("HtoD memcpy %f ms \n", HtoDtime);
     printf("Kernel %f ms \n", Ktime);
-    printf("DtoH memcpy %f ms \n", DtoHtime);
+    printf("DtoH memcpy %f ms \n", HtoDtime);
 // free resources
     if (d_A    ) cudaFree(d_A);
     if (d_W    ) cudaFree(d_W);

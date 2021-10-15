@@ -1,0 +1,4 @@
+Error 4.993116E-07
+HtoD memcpy 0.414464 ms 
+Kernel 174.449158 ms 
+DtoH memcpy 1.615904 ms 
