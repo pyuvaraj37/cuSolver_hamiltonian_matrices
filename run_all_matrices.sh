@@ -46,46 +46,46 @@ cat log/hamsqr8192.log
 
 echo "-----------------------"
 
-echo "Running Overlap Matrices:"
+# echo "Running Overlap Matrices:"
 
-echo "Computing oversqr128.dat"
-./main oversqr128.dat 128 > log/oversqr128.log
-cat log/oversqr128.log
+# echo "Computing oversqr128.dat"
+# ./main oversqr128.dat 128 > log/oversqr128.log
+# cat log/oversqr128.log
 
-echo "-----------------------"
+# echo "-----------------------"
 
-echo "Computing oversqr256.dat"
-./main oversqr256.dat 256 > log/oversqr256.log
-cat log/oversqr256.log
+# echo "Computing oversqr256.dat"
+# ./main oversqr256.dat 256 > log/oversqr256.log
+# cat log/oversqr256.log
 
-echo "-----------------------"
+# echo "-----------------------"
 
-echo "Computing oversqr512.dat"
-./main oversqr512.dat 512 > log/oversqr512.log
-cat log/oversqr512.log
+# echo "Computing oversqr512.dat"
+# ./main oversqr512.dat 512 > log/oversqr512.log
+# cat log/oversqr512.log
 
-echo "-----------------------"
+# echo "-----------------------"
 
-echo "Computing oversqr1024.dat"
-./main oversqr1024.dat 1024 > log/oversqr1024.log
-cat log/oversqr1024.log
+# echo "Computing oversqr1024.dat"
+# ./main oversqr1024.dat 1024 > log/oversqr1024.log
+# cat log/oversqr1024.log
 
-echo "-----------------------"
+# echo "-----------------------"
 
-echo "Computing oversqr2048.dat"
-./main oversqr2048.dat 2048 > log/oversqr2048.log
-cat log/oversqr2048.log
+# echo "Computing oversqr2048.dat"
+# ./main oversqr2048.dat 2048 > log/oversqr2048.log
+# cat log/oversqr2048.log
 
-echo "-----------------------"
+# echo "-----------------------"
 
-echo "Computing oversqr4096.dat"
-./main oversqr4096.dat 4096 > log/oversqr4096.log
-cat log/oversqr4096.log
+# echo "Computing oversqr4096.dat"
+# ./main oversqr4096.dat 4096 > log/oversqr4096.log
+# cat log/oversqr4096.log
 
-echo "-----------------------"
+# echo "-----------------------"
 
-echo "Computing oversqr8192.dat"
-./main oversqr8192.dat 8192 > log/oversqr8192.log
-cat log/oversqr2048.log
+# echo "Computing oversqr8192.dat"
+# ./main oversqr8192.dat 8192 > log/oversqr8192.log
+# cat log/oversqr2048.log
 
 echo "Finished all computations."
