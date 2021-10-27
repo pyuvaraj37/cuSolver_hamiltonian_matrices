@@ -1,4 +1,20 @@
+Run 1 results: 
 Error 4.999436E-07
-HtoD memcpy 71.995392 ms 
-Kernel 10948.074219 ms 
-DtoH memcpy 170.406372 ms 
+HtoD memcpy 70.963806 ms 
+Kernel 12126.232422 ms 
+DtoH memcpy 158.460449 ms 
+Run 2 results: 
+Error 4.999436E-07
+HtoD memcpy 58.822018 ms 
+Kernel 12133.467773 ms 
+DtoH memcpy 67.208260 ms 
+Run 3 results: 
+Error 4.999436E-07
+HtoD memcpy 55.395775 ms 
+Kernel 11468.741211 ms 
+DtoH memcpy 65.369087 ms 
+Average results for 3 runs: 
+Error 4.999436E-07
+HtoD memcpy 61.727203 ms 
+Kernel 11909.480469 ms 
+DtoH memcpy 97.012596 ms 

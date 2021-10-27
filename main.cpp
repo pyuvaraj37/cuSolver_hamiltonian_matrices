@@ -60,7 +60,7 @@ int main(int argc, char*argv[])
     fclose(vftr);
 
     
-    for (i = 0; i < runs; i++) {
+    for (int j = 0; j < runs; j++) {
         
         cudaSetDevice(0);   
 
@@ -193,7 +193,7 @@ int main(int argc, char*argv[])
             double error = fabs( lambda[i] - W[i]);
             lambda_sup = (lambda_sup > error)? lambda_sup : error;
         }
-        printf("Run %d results:", i+1);
+        printf("Run %d results: \n", j+1);
         printf("Error %E\n", lambda_sup);
         sum_error += lambda_sup;
         printf("HtoD memcpy %f ms \n", HtoDtime);
@@ -213,7 +213,7 @@ int main(int argc, char*argv[])
 
         cudaDeviceReset();
     }
-    printf("Average results for %d runs:", runs);
+    printf("Average results for %d runs: \n", runs);
     printf("Error %E\n", sum_error/runs);
     printf("HtoD memcpy %f ms \n", sum_HtoD_time/runs);
     printf("Kernel %f ms \n", sum_K_time/runs);

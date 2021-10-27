@@ -1,4 +1,20 @@
+Run 1 results: 
 Error 4.996495E-07
-HtoD memcpy 19.816959 ms 
-Kernel 2110.624023 ms 
-DtoH memcpy 45.175777 ms 
+HtoD memcpy 18.427423 ms 
+Kernel 2281.641357 ms 
+DtoH memcpy 42.736095 ms 
+Run 2 results: 
+Error 4.996495E-07
+HtoD memcpy 14.868960 ms 
+Kernel 2198.101562 ms 
+DtoH memcpy 15.284928 ms 
+Run 3 results: 
+Error 4.996495E-07
+HtoD memcpy 14.968672 ms 
+Kernel 2198.438721 ms 
+DtoH memcpy 15.327328 ms 
+Average results for 3 runs: 
+Error 4.996494E-07
+HtoD memcpy 16.088350 ms 
+Kernel 2226.060547 ms 
+DtoH memcpy 24.449450 ms 

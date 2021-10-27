@@ -1,4 +1,20 @@
+Run 1 results: 
 Error 4.993512E-07
-HtoD memcpy 0.151200 ms 
-Kernel 43.682430 ms 
-DtoH memcpy 0.462176 ms 
+HtoD memcpy 0.140672 ms 
+Kernel 43.628799 ms 
+DtoH memcpy 0.447040 ms 
+Run 2 results: 
+Error 4.993512E-07
+HtoD memcpy 0.141088 ms 
+Kernel 43.411713 ms 
+DtoH memcpy 0.143904 ms 
+Run 3 results: 
+Error 4.993512E-07
+HtoD memcpy 0.145824 ms 
+Kernel 43.361023 ms 
+DtoH memcpy 0.144928 ms 
+Average results for 3 runs: 
+Error 4.993512E-07
+HtoD memcpy 0.142528 ms 
+Kernel 43.467178 ms 
+DtoH memcpy 0.245291 ms 

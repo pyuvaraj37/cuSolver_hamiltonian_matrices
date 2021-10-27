@@ -1,4 +1,20 @@
+Run 1 results: 
 Error 4.337147E-07
-HtoD memcpy 0.050688 ms 
-Kernel 19.333311 ms 
-DtoH memcpy 0.154592 ms 
+HtoD memcpy 0.049888 ms 
+Kernel 19.440351 ms 
+DtoH memcpy 0.136160 ms 
+Run 2 results: 
+Error 4.337147E-07
+HtoD memcpy 0.049248 ms 
+Kernel 19.208128 ms 
+DtoH memcpy 0.063776 ms 
+Run 3 results: 
+Error 4.337147E-07
+HtoD memcpy 0.049952 ms 
+Kernel 19.155231 ms 
+DtoH memcpy 0.063552 ms 
+Average results for 3 runs: 
+Error 4.337147E-07
+HtoD memcpy 0.049696 ms 
+Kernel 19.267904 ms 
+DtoH memcpy 0.087829 ms 

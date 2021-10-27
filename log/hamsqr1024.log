@@ -1,4 +1,20 @@
+Run 1 results: 
 Error 4.993024E-07
-HtoD memcpy 1.337472 ms 
-Kernel 297.783997 ms 
-DtoH memcpy 2.944512 ms 
+HtoD memcpy 1.234752 ms 
+Kernel 274.769073 ms 
+DtoH memcpy 2.571712 ms 
+Run 2 results: 
+Error 4.993024E-07
+HtoD memcpy 1.118176 ms 
+Kernel 251.215042 ms 
+DtoH memcpy 1.137152 ms 
+Run 3 results: 
+Error 4.993024E-07
+HtoD memcpy 1.037792 ms 
+Kernel 222.257156 ms 
+DtoH memcpy 1.469728 ms 
+Average results for 3 runs: 
+Error 4.993024E-07
+HtoD memcpy 1.130240 ms 
+Kernel 249.413757 ms 
+DtoH memcpy 1.726197 ms 

@@ -1,4 +1,20 @@
+Run 1 results: 
 Error 4.988582E-07
-HtoD memcpy 4.708192 ms 
-Kernel 634.704773 ms 
-DtoH memcpy 11.817824 ms 
+HtoD memcpy 5.049536 ms 
+Kernel 673.550537 ms 
+DtoH memcpy 9.024192 ms 
+Run 2 results: 
+Error 4.988582E-07
+HtoD memcpy 3.748352 ms 
+Kernel 551.497192 ms 
+DtoH memcpy 3.078880 ms 
+Run 3 results: 
+Error 4.988582E-07
+HtoD memcpy 3.627840 ms 
+Kernel 545.284546 ms 
+DtoH memcpy 3.089344 ms 
+Average results for 3 runs: 
+Error 4.988582E-07
+HtoD memcpy 4.141909 ms 
+Kernel 590.110779 ms 
+DtoH memcpy 5.064139 ms 

@@ -1,4 +1,20 @@
+Run 1 results: 
 Error 4.993116E-07
-HtoD memcpy 0.414464 ms 
-Kernel 174.449158 ms 
-DtoH memcpy 1.615904 ms 
+HtoD memcpy 0.391488 ms 
+Kernel 113.115196 ms 
+DtoH memcpy 1.581312 ms 
+Run 2 results: 
+Error 4.993116E-07
+HtoD memcpy 0.369920 ms 
+Kernel 104.114403 ms 
+DtoH memcpy 0.374304 ms 
+Run 3 results: 
+Error 4.993116E-07
+HtoD memcpy 0.373600 ms 
+Kernel 100.192001 ms 
+DtoH memcpy 0.367552 ms 
+Average results for 3 runs: 
+Error 4.993116E-07
+HtoD memcpy 0.378336 ms 
+Kernel 105.807198 ms 
+DtoH memcpy 0.774389 ms 
